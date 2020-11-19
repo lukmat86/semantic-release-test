@@ -2,3 +2,4 @@
 Test of semantic release
 
 UPDATEZZ
+X

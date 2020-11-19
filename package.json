@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lukmat86/semantic-release-test#readme",
   "devDependencies": {
+    "@semantic-release/github": "^7.2.0",
     "semantic-release": "^17.2.3"
   }
 }

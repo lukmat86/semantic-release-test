@@ -1,10 +1,3 @@
 {
-  "branches": ["master", "next", "2x"],
   "plugins": ['@semantic-release/commit-analyzer', '@semantic-release/release-notes-generator', '@semantic-release/github'],
-  "release": {
-    "branch": "master"
-  },
-  "publishConfig": {
-    "tag": "latest"
-  }
 }

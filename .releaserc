@@ -1,6 +1,6 @@
 {
-  "branches": ['+([0-9])?(.{+([0-9]),x}).x', 'master', 'next', 'next-major', {name: 'beta', prerelease: true}, {name: 'alpha', prerelease: true}, 'apiv1'],
+  "branches": ['+([0-9])?(.{+([0-9]),x}).x', 'master', 'next', 'next-major', {name: 'beta', prerelease: true}, {name: 'alpha', prerelease: true}, 'apiv1', 'apiv2'],
   "plugins": ['@semantic-release/commit-analyzer', '@semantic-release/release-notes-generator', '@semantic-release/github'],
   "ci": false,
-  "tagFormat": 'v${API}-${version}'
+  "tagFormat": 'v${version}'
 }
